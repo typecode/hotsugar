@@ -1,0 +1,231 @@
+/**** Housekeeping ***/
+
+html{
+	height: 100%;
+	overflow-y:scroll;
+	background-color:black;
+}
+
+
+body{
+	font-family: Courier, monospace;
+	font-size: 12px;
+	color: #ff8788;
+	background-color:black;
+	height:100%;
+}
+
+a{
+	text-decoration: none;
+	color:#0ddca4;
+}
+	a:hover{
+		color: #ff8788;
+	}
+
+.clear{
+	clear:both;	
+}
+
+.wrapper{
+	width: 822px;
+	margin: 0px auto;
+	padding:0px 0px 50px 0px;
+	overflow:visible;
+	position:relative;
+}
+
+
+	.header{
+		display:block;
+		width:832px;
+		position:relative;
+		margin:0px 0px 0px 0px;
+		padding-bottom:115px;
+	}
+		.header .logo{
+			display:block;
+			background:url(../images/logo.png) no-repeat scroll center top transparent;
+			width:832px;
+			margin-left:-16px;
+			height:171px;
+		}
+		.header .landscape{
+			display:block;
+			background:url(../images/header_blur.png) no-repeat scroll left top transparent;
+			width:822px;
+			height:272px;
+			position:relative;
+		}
+		.header .tv {
+			position:relative;
+			top:0px;
+			left:0px;
+			display:block;
+			width:75px;
+			height:53px;
+			margin:-162px 0px 0px 222px;
+		}
+			.header .tv .frame{
+				position:absolute;
+				top:-2px;
+				left:-2px;
+				display:block;
+				z-index:1;
+				width:75px;
+				height:53px;
+				background:url(../images/tvsmall.png) no-repeat scroll left top transparent;
+			}
+			.header .tv .static{
+				position:absolute;
+				top:2px;
+				left:2px;
+				display:block;
+				z-index:0;
+				width:65px;
+				height:39px;
+				background:url(../images/static.gif) no-repeat scroll left top transparent;
+			}
+		.header h1{
+			font-size:3em;
+			padding:10px 0px 5px 10px;
+		}
+			.header h1 a span{
+				display:none;
+			}
+	
+	.nav{
+		display:block;
+		width:290px;
+		float:right;
+		padding:15px 0px 10px 0px;
+		margin:0px 0px 15px 0px;
+	}
+		.nav iframe{
+			margin:0px 0px 0px 10px;
+		}
+		.nav h2{
+			font-size:1.3em;
+			padding:0px 0px 10px 10px;
+		}
+		.nav object,
+		.nav embed{
+			margin:0px 0px 10px 10px;
+		}
+		.nav object.soundcloud,
+		.nav embed.soundcloud{
+			margin:0px 0px 2px 10px;
+		}
+		.nav span.soundcloud{
+			padding:0px 0px 0px 20px;
+			display:block;
+			width:110%;
+		}
+		.nav ul{
+			padding:0px 0px 0px 10px;
+		}
+			.nav ul li{
+				list-style-type:none;
+				padding:2px 0px 3px 0px;
+			}
+				.header ul li ul{
+					
+				}
+					.header ul li ul li{
+						
+					}
+		.nav .social{
+			overflow:hidden;
+			padding-left:15px;
+			padding-top:10px;
+		}
+			.nav .social a{
+				display:block;
+				float:left;
+				margin:0px 15px 0px 15px;
+			}
+				.nav .social a span{
+					display:none;
+				}
+				.nav .social a.myspace{
+					width:49px;
+					height:54px;
+					background:url(../images/myspace_sprite.png) no-repeat scroll left top transparent;
+					background-position:0px -54px;
+				}
+					.nav .social a.myspace:hover{
+						background-position:0px 0px;
+					}
+				.nav .social a.youtube{
+					width:84px;
+					height:34px;
+					margin-top:5px;
+					background:url(../images/youtube_sprite.png) no-repeat scroll left top transparent;
+					background-position:0px -34px;
+				}
+					.nav .social a.youtube:hover{
+						background-position:0px 0px;
+					}
+				.nav .social a.facebook{
+					width:47px;
+					height:47px;
+					background:url(../images/facebook_sprite.png) no-repeat scroll left top transparent;
+					background-position:0px -47px;
+				}
+					.nav .social a.facebook:hover{
+						background-position:0px 0px;
+					}
+					
+				.nav .social a.twitter{
+					width:47px;
+					height:47px;
+					background:url(../images/twitter-sprite.png) no-repeat scroll left top transparent;
+					background-position:0px 0px;
+					margin-top:10px;
+					clear:left;
+				}
+					.nav .social a.twitter:hover{
+						background-position:0px -47px;
+					}
+					
+				.nav .social a.tumblr{
+					width:47px;
+					height:47px;
+					margin-top:10px;
+					background:url(../images/tumblr-sprite.png) no-repeat scroll left top transparent;
+					background-position:0px 0px;
+				}
+					.nav .social a.tumblr:hover{
+						background-position:0px -47px;
+
+#musclemilk{  }
+
+	.content{
+		display:block;
+		width:520px;
+		min-height:50px;
+		float:left;
+		margin:0px 0px 15px 3px;
+		
+	}
+		.content .page{
+			margin:15px 20px 15px 0px;
+			padding-top:15px;
+		}
+		.content h2{
+			font-size:1.3em;
+			padding:0px 0px 10px 10px;
+		}
+	
+	.footer{
+		height:20px;
+		clear:both;
+	}
+		.footer ul{
+			text-align:center;
+		}
+			.footer ul li{
+				line-height:20px;
+				display:inline;
+				padding:0px 5px 0px 5px;
+			}
